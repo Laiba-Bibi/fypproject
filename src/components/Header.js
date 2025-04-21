@@ -11,7 +11,7 @@ import React from 'react';
                <Link to="/about" className="hover:underline">About</Link>
                <Link to="/contact" className="hover:underline">Contact</Link>
                <Link to="/login" className="hover:underline">Login</Link>
-               <Link to="/register" className="hover:underline">Register</Link>
+               <Link to="/RegisterPage" className="hover:underline">Register</Link>
              </div>
            </div>
          </nav>
