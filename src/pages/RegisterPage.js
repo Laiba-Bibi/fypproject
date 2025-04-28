@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
      import { Link } from 'react-router-dom';
-     import Header from '../components/Header';
+     import Navbar from '../components/Navbar';
      import Footer from '../components/Footer';
 
      const RegisterPage = () => {
@@ -16,7 +16,7 @@ import React, { useState } from 'react';
 
        return (
          <div className="bg-gray-100 min-h-screen flex flex-col">
-           <Header />
+           <Navbar />
            <main className="container mx-auto py-12 flex-grow">
              <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg">
                <h2 className="text-2xl font-bold text-primary mb-6 text-center">Register</h2>

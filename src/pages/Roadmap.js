@@ -1,11 +1,11 @@
 import React from 'react';
-     import Header from '../components/Header';
+import Navbar from '../components/Navbar';
      import Footer from '../components/Footer';
 
      const Roadmap = () => {
        return (
          <div className="bg-gray-100 min-h-screen flex flex-col">
-           <Header />
+           <Navbar />
            <main className="container mx-auto py-12 flex-grow">
              <h2 className="text-3xl font-bold text-primary mb-8 text-center">Your Career Roadmap</h2>
              <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
